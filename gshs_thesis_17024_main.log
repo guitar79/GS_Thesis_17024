@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.25)  26 MAY 2019 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.25)  27 MAY 2019 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1401,20 +1401,19 @@ Package pdftex.def Info: images/perovskite.png  used on input line 28.
 <images/PL.png, id=111, 221.628pt x 257.763pt>
 File: images/PL.png Graphic file (type png)
 <use images/PL.png>
-Package pdftex.def Info: images/PL.png  used on input line 41.
+Package pdftex.def Info: images/PL.png  used on input line 40.
 (pdftex.def)             Requested size: 185.65297pt x 215.9216pt.
- [2]
-<images/exciton_biexciton.png, id=119, 637.4214pt x 281.3712pt>
+ [2] [3 <./images/perovskite.png> <./images/PL.png>]
+<images/exciton_biexciton.png, id=125, 637.4214pt x 281.3712pt>
 File: images/exciton_biexciton.png Graphic file (type png)
 <use images/exciton_biexciton.png>
-Package pdftex.def Info: images/exciton_biexciton.png  used on input line 52.
+Package pdftex.def Info: images/exciton_biexciton.png  used on input line 56.
 (pdftex.def)             Requested size: 330.05322pt x 145.69133pt.
-) [3 <./images/perovskite.png>] [4 <./images/PL.png>] [5 <./images/exciton_biex
-citon.png>]
+) [4 <./images/exciton_biexciton.png>]
+[5]
 \openout2 = `sub/methodology.aux'.
 
-
-(./sub/methodology.tex
+ (./sub/methodology.tex
 <images/sonicator.jpg, id=133, 1445.4pt x 1445.4pt>
 File: images/sonicator.jpg Graphic file (type jpg)
 <use images/sonicator.jpg>
@@ -1450,68 +1449,40 @@ Overfull \hbox (44.6232pt too wide) in paragraph at lines 37--41
  [] 
  []
 
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 48.
-
-
-! Package array Error:  Illegal pream-token (1): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \begin{tabular}{11}
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package array Error:  Illegal pream-token (1): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \begin{tabular}{11}
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 [7 <./images/OM.png>]
 <images/point0.png, id=147, 777.6252pt x 543.4704pt>
 File: images/point0.png Graphic file (type png)
 <use images/point0.png>
-Package pdftex.def Info: images/point0.png  used on input line 68.
+Package pdftex.def Info: images/point0.png  used on input line 71.
 (pdftex.def)             Requested size: 330.05322pt x 230.67746pt.
  [8 <./images/Nova_screen_capture.png> <./images/line123.png>]
 <images/_line1.png, id=152, 926.5014pt x 341.5962pt>
 File: images/_line1.png Graphic file (type png)
 <use images/_line1.png>
-Package pdftex.def Info: images/_line1.png  used on input line 81.
+Package pdftex.def Info: images/_line1.png  used on input line 84.
 (pdftex.def)             Requested size: 412.56496pt x 152.11147pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 80--83
+Overfull \hbox (12.0pt too wide) in paragraph at lines 83--86
  [] 
  []
 
 <images/_line2.png, id=153, 926.5014pt x 341.5962pt>
 File: images/_line2.png Graphic file (type png)
 <use images/_line2.png>
-Package pdftex.def Info: images/_line2.png  used on input line 90.
+Package pdftex.def Info: images/_line2.png  used on input line 93.
 (pdftex.def)             Requested size: 412.56496pt x 152.11147pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 89--92
+Overfull \hbox (12.0pt too wide) in paragraph at lines 92--95
  [] 
  []
 
 <images/_line3.png, id=154, 924.5742pt x 341.5962pt>
 File: images/_line3.png Graphic file (type png)
 <use images/_line3.png>
-Package pdftex.def Info: images/_line3.png  used on input line 99.
+Package pdftex.def Info: images/_line3.png  used on input line 102.
 (pdftex.def)             Requested size: 412.56496pt x 152.4242pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 98--101
+Overfull \hbox (12.0pt too wide) in paragraph at lines 101--104
  [] 
  []
 
@@ -1542,15 +1513,12 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 98--101
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 30973 strings out of 492649
- 733126 string characters out of 6133384
- 919317 words of memory out of 5000000
- 34072 multiletter control sequences out of 15000+600000
+ 30975 strings out of 492649
+ 733145 string characters out of 6133384
+ 919324 words of memory out of 5000000
+ 34074 multiletter control sequences out of 15000+600000
  149445 words of font info for 338 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,18n,138p,1033b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1623,7 +1591,7 @@ s/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2018/texmf-dist/fonts/type
 c:/texlive/2018/texmf-dist/fonts/type1/uhc/umj/umj36.pfb><c:/texlive/2018/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb>
-Output written on gshs_thesis_17024_main.pdf (24 pages, 5535840 bytes).
+Output written on gshs_thesis_17024_main.pdf (24 pages, 5536146 bytes).
 PDF statistics:
  406 PDF objects out of 1000 (max. 8388607)
  281 compressed objects within 3 object streams
