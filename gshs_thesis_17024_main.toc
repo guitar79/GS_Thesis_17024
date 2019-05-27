@@ -4,21 +4,21 @@
 \contentsline {section}{List of Tables}{vi}
 \contentsline {section}{\numberline {I}서론}{1}
 \contentsline {subsection}{\numberline {I.1}연구 동기}{1}
-\contentsline {subsection}{\numberline {I.2}이론적 배경}{1}
-\contentsline {subsubsection}{\numberline {I.2.1}Perovskite}{1}
+\contentsline {subsection}{\numberline {I.2}이론적 배경}{2}
+\contentsline {subsubsection}{\numberline {I.2.1}Perovskite}{2}
 \contentsline {subsubsection}{\numberline {I.2.2}PL}{2}
-\contentsline {subsubsection}{\numberline {I.2.3}선행연구 및 한계}{2}
-\contentsline {section}{\numberline {II}Obervations and Data Reduction}{3}
-\contentsline {subsection}{\numberline {II.1}Observation Region}{3}
-\contentsline {subsection}{\numberline {II.2}Observation Data}{3}
-\contentsline {subsection}{\numberline {II.3}Identification of Outflows}{4}
-\contentsline {subsection}{\numberline {II.4}Calculating Momentum Flux}{6}
-\contentsline {section}{\numberline {III}Results}{7}
-\contentsline {subsection}{\numberline {III.1}Outflow Identification}{7}
-\contentsline {subsubsection}{\numberline {III.1.1}$^{12}$CO J = 2 - 1 Observations}{8}
-\contentsline {subsubsection}{\numberline {III.1.2}$^{12}$CO J = 1 - 0 Observations}{12}
-\contentsline {subsection}{\numberline {III.2}Momentum Flux}{13}
-\contentsline {subsection}{\numberline {III.3}Momentum flux vs. Bolometric luminosity}{14}
-\contentsline {subsection}{\numberline {III.4}Momentum flux by emission line energy level}{15}
-\contentsline {section}{\numberline {IV}Conclusion}{16}
-\contentsline {section}{연구활동}{17}
+\contentsline {subsubsection}{\numberline {I.2.3}Exciton, biexciton의 의미}{3}
+\contentsline {subsection}{\numberline {I.3}선행연구 및 한계}{3}
+\contentsline {section}{\numberline {II}연구 과정 및 결과}{6}
+\contentsline {subsection}{\numberline {II.1}샘플 제작}{6}
+\contentsline {subsection}{\numberline {II.2}데이터 추출}{7}
+\contentsline {subsection}{\numberline {II.3}분석 과정}{8}
+\contentsline {subsubsection}{\numberline {II.3.1}point data peak fitting}{8}
+\contentsline {subsubsection}{\numberline {II.3.2}line data analyze}{9}
+\contentsline {subsection}{\numberline {II.4}분석 결과 및 해석}{9}
+\contentsline {section}{\numberline {III}Results}{12}
+\contentsline {subsection}{\numberline {III.1}Outflow Identification}{12}
+\contentsline {subsection}{\numberline {III.2}Momentum Flux}{12}
+\contentsline {subsection}{\numberline {III.3}Momentum flux vs. Bolometric luminosity}{12}
+\contentsline {section}{\numberline {IV}결론 및 고찰}{13}
+\contentsline {section}{연구활동}{14}
