@@ -1,14 +1,15 @@
 \contentsline {section}{Abstract}{i}
 \contentsline {section}{Contents}{iii}
-\contentsline {section}{List of Figures}{v}
-\contentsline {section}{List of Tables}{vi}
+\contentsline {section}{List of Figures}{iv}
+\contentsline {section}{List of Tables}{v}
 \contentsline {section}{\numberline {I}서론}{1}
 \contentsline {subsection}{\numberline {I.1}연구 동기}{1}
 \contentsline {subsection}{\numberline {I.2}이론적 배경}{2}
 \contentsline {subsubsection}{\numberline {I.2.1}Perovskite}{2}
 \contentsline {subsubsection}{\numberline {I.2.2}PL}{3}
 \contentsline {subsubsection}{\numberline {I.2.3}Exciton, biexciton의 의미}{4}
-\contentsline {subsection}{\numberline {I.3}선행연구 및 한계}{4}
+\contentsline {subsection}{\numberline {I.3}ND filer}{4}
+\contentsline {subsection}{\numberline {I.4}선행연구 및 한계}{5}
 \contentsline {section}{\numberline {II}연구 과정 및 결과}{6}
 \contentsline {subsection}{\numberline {II.1}샘플 제작}{6}
 \contentsline {subsection}{\numberline {II.2}데이터 추출}{7}
@@ -16,9 +17,5 @@
 \contentsline {subsubsection}{\numberline {II.3.1}point data peak fitting}{9}
 \contentsline {subsubsection}{\numberline {II.3.2}line data analyze}{10}
 \contentsline {subsection}{\numberline {II.4}분석 결과 및 해석}{10}
-\contentsline {section}{\numberline {III}Results}{12}
-\contentsline {subsection}{\numberline {III.1}Outflow Identification}{12}
-\contentsline {subsection}{\numberline {III.2}Momentum Flux}{12}
-\contentsline {subsection}{\numberline {III.3}Momentum flux vs. Bolometric luminosity}{12}
-\contentsline {section}{\numberline {IV}결론 및 고찰}{13}
+\contentsline {section}{\numberline {III}결론 및 고찰}{13}
 \contentsline {section}{연구활동}{14}

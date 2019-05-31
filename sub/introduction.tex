@@ -10,7 +10,7 @@
 			\includegraphics[width=0.7\textwidth]{waveguiding_effect}
 		\end{tabular}
 	\end{center}
-	\caption{만들어진 CsPbBr3 단결정에 레이저를 쏘았을 때 나타나는 모습.}
+	\caption{Appearance of CsPbBr3 single crystal when laser is shot on it.}
 	\label{fig:waveguide}  
 \end{figure}
 Perovskite 구조를 가지고 있는 결정에 레이저를 쏘았을 때 Figure \ref{fig:waveguide} 에서 볼 수 있듯이 빛이 결정의 바깥쪽으로 퍼지는 현상을 관찰할 수 있었고, wave guiding effect에 의한 현상으로 판단하였다. 기존의 perovskite의 구조, 광학적 특성을 분석한 실험에서는 XRD(X-ray diffraction), TRPL(Time-Resolved Photoluminescence), PL(Photoluminescence)등 여러가지 장비를 통해 분석을 하였지만 각각의 장비에 대해서는 깊게 분석하지 못한 면들이 있었다. 특히 PL 분석에서는 PL로 찍었을 때 나오는 개형의 half width과 peak에 대해서만 분석하였기에 exciton peak과 biexciton peak에 대해서 따로 분석해보고자 하였다. 
@@ -26,7 +26,7 @@ Perovskite는 L. A. Perovski의 이름을 따서 명명된 물질로, 처음 발
 			\includegraphics[width=0.7\textwidth]{perovskite}
 		\end{tabular}
 	\end{center}
-	\caption{페로브스카이트의 기본적인 구조를 나타낸 모형.}
+	\caption{Basic structure of perovskite.}
 	\label{fig:perov} 
 \end{figure}
 A위치에는 금속뿐만 아니라 유기물인  methylammonium ($CH_3NH_3^+$)이나 ethylammonium ($CH_3CH_2NH_3^+$)를 넣어 페로브스카이트를 구성할 수 있다. Green, M. A., Ho-Baillie, A., & Snaith, H. J. (2014)에 의하면 쇼트키-퀘이서 효율 한계(Shockley Queisser Efficiency Limit)에 의해 물질의 밴드갭에 따라 전지 효율의 이론적 최댓값이 존재한다\cite{green2014emergence}. 페로브스카이트는 각 자리에 여러 물질을 바꿔 넣을 수 있으므로 이론적인 최대 효율값에 비슷하게 도달할 수  있는 장점이 있다. 이 뿐만 아니라 가능한 밴드갭 영역이 넓고 꼭짓점을 공유하는 팔면체들의 회로망 덕분에 캐리어의 이동성이 좋아서 전하가 잘 수송되기도 한다\cite{green2014emergence}.
@@ -41,7 +41,7 @@ A위치에는 금속뿐만 아니라 유기물인  methylammonium ($CH_3NH_3^+$)
 			\includegraphics[width=0.45\textwidth]{PL}
 		\end{tabular}
 	\end{center}
-	\caption{들뜬 전자의 relaxation 과정에서 방출되는 에너지.}
+	\caption{Energy released from the relaxation process of excited electrons.}
 	\label{fig:pl} 
 \end{figure}
 
@@ -56,10 +56,16 @@ PL(Photoluminescence)는 광자를 통해 에너지를 흡수한 물질이 그 �
 			\includegraphics[width=0.8\textwidth]{exciton_biexciton}
 		\end{tabular}
 	\end{center}
-	\caption{exciton 과 biexciton.}
+	\caption{image of exciton and biexciton.}
 	\label{fig:ex}  
 \end{figure}
 Exciton은 앞서 말한 PL에서의 측정 과정에서 양공과 전자 하나의 쌍을 말하며, 이 것이 두개가 쌍을 이루고 있을 때 그것을 biexciton이라 칭한다. (Figure \ref{fig:ex} 참고) Triexciton 또한 존재하지만 그 존재 빈도가 극히 적어서 스펙트럼에 나타나지 않는다. 본 연구에서는 PL 분석시에 나타나는 peak의 exciton, biexciton별 분석을 통하여 wave guiding effect의 원인을 분석하는 것이 본 연구의 목적이다.
 
+\subsection{ND filer}
+ND filter은 Neutral Density filter을 의미하며 특정한 파장대의 빛을 투과시키면 세기가 감소하는 특성을 가지고 있다. 이는 강한 레이저 빛이 광학기구에 직접 닿으면 센서나 광학 기구가 손상될 수 있기 때문에 사용한다. 투과율 T는 OD(Optical Density)값으로 정의되며
+편의에 의해 OD값에 따라 ND filter 표기가 결정된다. 수식은 다음과 같다.
+
+$T(Percent Transmission) = 10^{-OD}*100$
+
 \subsection{선행연구 및 한계}
-이전에 했던 단결정 페로브 스카이트의 구조적 광학적 특성 분석에 관한 연구 에서 XRD와 TRPL, PL을 통하여서 구조적, 광학적 특성을 분석하였다. XRD는 성공적이었으나 위치별로 분석한 PL 분석에서는 스펙트럼이 비대칭적으로 나타났음에도 불구하고 peak와 half width로만 분석했기에 경향성을 분석할 때에 exciton peak 와 biexciton peak의 합의 경향성을 볼 수 있었다. 반면에 exciton 과 biexciton 에 대한 경향성을 따로 볼 수 없었다는 것에 한계가 있다. 본 연구에서는 exciton과 biexciton peak의 intensity를 중점적으로 분석하여서 어떠한 경향성을 가지고 그 원인, 결과는 무엇인지 분석한다.
+본 저자는 이전에 했던 단결정 페로브 스카이트의 구조적 광학적 특성 분석에 관한 연구 에서 XRD와 TRPL, PL을 통하여서 구조적, 광학적 특성을 분석하였다. XRD는 성공적이었으나 위치별로 분석한 PL 분석에서는 스펙트럼이 비대칭적으로 나타났음에도 불구하고 peak와 half width로만 분석했기에 경향성을 분석할 때에 exciton peak 와 biexciton peak의 합의 경향성을 볼 수 있었다. 하지만 결정 내부의 radiative recombination에서 방출되는 빛의 defect와 결정의 순도에 관한 것은 두 가지 peak을 따로 분석해야 알 수 있는 부분이다. 이에 대해서 exciton 과 biexciton을 따로 생각하고 분석한 chen (2018)의 논문을 참고 할 수 있었다. 이 연구에서는 온도에 따른 exciton, biexciton peak의 변화를 주로 다루었다 \cite{chen2018room}. 본 연구에서는 wave guiding effect 와의 연관성을 찾기 위해 위치에 따른 exciton, biexciton peak의 경향성을 따로 조사하고 분석한다.
