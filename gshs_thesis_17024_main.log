@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.25)  31 MAY 2019 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.25)  2 JUN 2019 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1396,26 +1396,7 @@ Package pdftex.def Info: images/perovskite.png  used on input line 26.
 
 
 
- <./images/waveguiding_effect.JPG>]
-! Misplaced alignment tab character &.
-l.32 ...àò ÏûàÎã§. Green, M. A., Ho-Baillie, A., &
-                                                   Snaith, H. J. (2014)Ïóê Ï...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Citation `green2014emergence' on page 2 undefined on input line 
-32.
-
-
-LaTeX Warning: Citation `green2014emergence' on page 2 undefined on input line 
-32.
-
-[2 <./images/perovskite.png>]
+ <./images/waveguiding_effect.JPG>] [2 <./images/perovskite.png>]
 <images/PL.png, id=118, 221.628pt x 257.763pt>
 File: images/PL.png Graphic file (type png)
 <use images/PL.png>
@@ -1427,11 +1408,8 @@ File: images/exciton_biexciton.png Graphic file (type png)
 <use images/exciton_biexciton.png>
 Package pdftex.def Info: images/exciton_biexciton.png  used on input line 56.
 (pdftex.def)             Requested size: 330.05322pt x 145.69133pt.
- [4 <./images/exciton_biexciton.png>]
 
-LaTeX Warning: Citation `chen2018room' on page 5 undefined on input line 71.
-
-) [5]
+[4 <./images/exciton_biexciton.png>]) [5]
 \openout2 = `sub/methodology.aux'.
 
  (./sub/methodology.tex
@@ -1445,16 +1423,6 @@ File: images/spin_coating.jpg Graphic file (type jpg)
 <use images/spin_coating.jpg>
 Package pdftex.def Info: images/spin_coating.jpg  used on input line 10.
 (pdftex.def)             Requested size: 123.77074pt x 123.7506pt.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.10 ...aphics[width=0.3\textwidth]{spin_coating}&
-                                                  
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
 <images/hotplate.jpg, id=135, 1445.4pt x 1445.4pt>
 File: images/hotplate.jpg Graphic file (type jpg)
 <use images/hotplate.jpg>
@@ -1465,7 +1433,7 @@ File: images/OM.png Graphic file (type png)
 <use images/OM.png>
 Package pdftex.def Info: images/OM.png  used on input line 23.
 (pdftex.def)             Requested size: 185.65297pt x 147.46756pt.
-[6
+ [6
 
 
  <./images/sonicator.jpg> <./images/spin_coating.jpg> <./images/hotplate.jpg>]
@@ -1487,15 +1455,12 @@ Overfull \hbox (44.6232pt too wide) in paragraph at lines 36--40
 
 [7 <./images/OM.png>] [8 <./images/Nova_screen_capture.png> <./images/line123.p
 ng>]
-
-LaTeX Warning: Citation `chen2018room' on page 9 undefined on input line 67.
-
 <images/point0.png, id=152, 777.6252pt x 543.4704pt>
 File: images/point0.png Graphic file (type png)
 <use images/point0.png>
 Package pdftex.def Info: images/point0.png  used on input line 71.
 (pdftex.def)             Requested size: 330.05322pt x 230.67746pt.
-[9 <./images/point0.png>]
+ [9 <./images/point0.png>]
 <images/_line1.png, id=157, 916.8654pt x 341.5962pt>
 File: images/_line1.png Graphic file (type png)
 <use images/_line1.png>
@@ -1539,12 +1504,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 105--108
 
 
 
-] (./gshs_thesis_17024_main.bbl)
+] (./gshs_thesis_17024_main.bbl) [14
+
+]
 \openout2 = `sub/footer.aux'.
 
- (./sub/footer.tex
-[14
 
+(./sub/footer.tex [15
 
 ]) (./gshs_thesis_17024_main.aux (./sub/abstract.aux)
 (./sub/introduction.aux) (./sub/methodology.aux) (./sub/result.aux)
@@ -1552,16 +1518,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 105--108
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 30961 strings out of 492649
- 732669 string characters out of 6133384
- 918324 words of memory out of 5000000
- 34048 multiletter control sequences out of 15000+600000
- 145032 words of font info for 317 fonts, out of 8000000 for 9000
+ 30963 strings out of 492649
+ 732693 string characters out of 6133383
+ 918330 words of memory out of 5000000
+ 34049 multiletter control sequences out of 15000+600000
+ 146744 words of font info for 318 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,18n,138p,1176b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2018/texm
@@ -1635,10 +1598,10 @@ mtype1/nanummjmd7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/uhc/umj/umj23.pfb
 mf-dist/fonts/type1/uhc/umj/umj36.pfb><c:/texlive/2018/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gshs_thesis_17024_main.pdf (23 pages, 6016413 bytes).
+Output written on gshs_thesis_17024_main.pdf (24 pages, 6019786 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 288 compressed objects within 3 object streams
+ 419 PDF objects out of 1000 (max. 8388607)
+ 290 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

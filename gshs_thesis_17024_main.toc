@@ -18,4 +18,5 @@
 \contentsline {subsubsection}{\numberline {II.3.2}line data analyze}{10}
 \contentsline {subsection}{\numberline {II.4}분석 결과 및 해석}{10}
 \contentsline {section}{\numberline {III}결론 및 고찰}{13}
-\contentsline {section}{연구활동}{14}
+\contentsline {section}{References}{14}
+\contentsline {section}{연구활동}{15}
