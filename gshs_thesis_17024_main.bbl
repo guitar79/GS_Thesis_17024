@@ -1,14 +1,29 @@
 \begin{thebibliography}{1}
 
-\bibitem[1]{green2014emergence}
+\bibitem[1]{yarita2017dynamics}
+Yarita, N., Tahara, H., Ihara, T., Kawawaki, T., Sato, R., Saruyama, M., .~.~.
+  \& Kanemitsu, Y. (2017).
+\newblock Dynamics of charged excitons and biexcitons in cspbbr3 perovskite
+  nanocrystals revealed by femtosecond transient-absorption and single-dot
+  luminescence spectroscopy.
+\newblock {\em The journal of physical chemistry letters}, {\em 8\/}(7),
+  1413--1418.
+
+\bibitem[2]{green2014emergence}
 Green, M.~A., Ho-Baillie, A., \& Snaith, H.~J. (2014).
 \newblock The emergence of perovskite solar cells.
 \newblock {\em Nature photonics}, {\em 8\/}(7), 506.
 
-\bibitem[2]{chen2018room}
+\bibitem[3]{chen2018room}
 Chen, J., Zhang, Q., Du, W., Mi, Y., Shang, Q., Shi, J., .~.~. et~al. (2018).
 \newblock Room temperature continuous-wave excited biexciton emission in
   cspbbr3 nanocrystals.
 \newblock {\em arXiv preprint arXiv:1804.09782}.
+
+\bibitem[4]{hartley1961modified}
+Hartley, H.~O. (1961).
+\newblock The modified gauss-newton method for the fitting of non-linear
+  regression functions by least squares.
+\newblock {\em Technometrics}, {\em 3\/}(2), 269--280.
 
 \end{thebibliography}

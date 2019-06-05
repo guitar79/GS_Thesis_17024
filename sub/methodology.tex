@@ -1,8 +1,16 @@
 \section{연구 과정 및 결과}
 
 \subsection{샘플 제작}
+다음은 샘플을 만들기 위한 과정이다.
+\begin{enumerate}
+	\item $\rm CsPbBr_3$을 만들기 위해 $\rm CsBr$과 $\rm PbBr_2$를 1:1의 몰 비율로 섞고 용매는 DMSO(Dimethyl Sulfoxide)를 사용한다.
+	\item Sonication을 이용해서 용매와 용질을 균일하게 섞어준다.
+	\item Silicon wafer 위에 제조된 용액을 스포이트를 이용해서 떨어뜨린 뒤, spin coating을 이용하여 균일하게 펼쳐준다.
+	\item 달궈놓은 핫플레이트에서 silicon wafer를 PDMS로 눌러준다.
+	\item 결정이 생겼는지 광학현미경을 통해서 확인한 뒤, 실험을 진행한다. 
+\end{enumerate}
 기존의 페로브스카이트 결정을 만드는 방법과는 다르게 간단하고 빠른 PDMS stamping 방법을 사용하였다.
-모든 용액은 실온과 공기 중에서 제작되었다. CsPbBr3의 용액을 만들기 위해서 CsBr과 PbBr2를 1:1의 몰 비율로 섞었으며 용매는 Dimethyl Sulfoxide(DMSO)를 이용하였다. 용매와 용질이 균일하게 섞이게 위해서 초음파를 이용한 Sonication을 진행하였다.
+모든 용액은 실온과 공기 중에서 제작되었다. $\rm CsPbBr_3$의 용액을 만들기 위해서 $\rm CsBr$과 $\rm PbBr_2$를 1:1의 몰 비율로 섞었으며 용매는 DMSO를 이용하였다. 용매와 용질이 균일하게 섞이게 하기 위해서 초음파를 이용한 Sonication을 진행하였다.
 \begin{figure}[H]
 	\begin{center}
 		\begin{tabular}{ccc}
@@ -11,12 +19,12 @@
 			\includegraphics[width=0.3\textwidth]{hotplate}
 		\end{tabular}
 	\end{center}
-	\caption{From top to bottom, sonicating, spin coating, PDMS stamping on hot plate.}
+	\caption{In order, sonicating, spin coating, PDMS stamping on hot plate.}
 	\label{fig:sample}  
 \end{figure}
 
-
 Silicon wafer 위에 spin coating을 이용하여 용액을 균일하게 펼쳐주었다. 2000rpm으로 1분간 회전시켜주었고 미리 100도로 달궈놓았던 핫플레이트에서 5분간 PDMS를 이용하여 눌러주었다.
+
 \begin{figure}[H]
 	\begin{center}
 		\begin{tabular}{cc}
@@ -30,7 +38,7 @@ PDMS stamping 과정을 거친 이후에 silicon wafer에 결정이 잘 형성�
 
 
 \subsection{데이터 추출}
-제작된 sample을 NT-MDT 기기를 통하여 PL mapping 하였다. 이 데이터는 레이저의 조리개를 $OD = 2$ 로 맞춰놓은 ND2 상태에서 측정하였다. 생성된 단결정에 측정할 위치를 정해 놓고 PL을 측정하였다.  PL mapping이란, sample의 각 위치에서의 PL 데이터를 모두 담은 파일을 만드는 과정이다. 이렇게 만들어진 파일에서는 임의의 점에서의 PL data 를 얻어낼 수 있다는 장점이 있다.다
+제작된 sample을 NT-MDT 기기를 통하여 PL mapping 하였다. 생성된 단결정에 측정할 위치를 정해 놓고 PL을 측정하였다.  PL mapping이란, sample의 각 위치에서의 PL 데이터를 모두 담은 파일을 만드는 과정이다. 이 데이터는 레이저의 조리개를 $OD = 2$ 로 맞춰놓은 ND2 상태에서 측정하였다. 이렇게 만들어진 파일에서는 임의의 점에서의 PL data 를 얻어낼 수 있다는 장점이 있다.
 \begin{figure}[H]
 	\begin{center}
 		\begin{tabular}{cc}
@@ -43,7 +51,7 @@ PDMS stamping 과정을 거친 이후에 silicon wafer에 결정이 잘 형성�
 \end{figure}
 Nova Px 프로그램을 활용하여 PL mapping 된 파일에서 데이터를 각 점 별로 뽑아내었다. Figure \ref{fig:nova}와 같은 화면에서 초록색 십자의 위치를 조절하여 원하는 위치의 PL peak을 얻어낼 수 있다. 중앙에서부터 바깥으로 나갈 때의 PL peak 의 경향성을 알아보기 위해 Figure \ref{fig:nova} 의 오른쪽 사진에서 볼 수 있는 1, 2, 3 경로의 데이터를 추출하였다.
 
-중앙에서부터 바깥 쪽으로 나가는 경로에서의 PL data를 추출해낸다. 중앙으로 잡은 점의 좌표는 (59.0, 53.6, 33)이다. (이때 좌표를 (x, y, z) 라 했을 때 x, y는 사진상에서의 좌표, z는 그림에서 보이는 밝기의 크기, 즉 PL peak의 대략적인 상대적 크기이다.) 그림 상으로는 정중앙이 아닐 수 있지만 PL peak이 가장 높게 나온 곳이므로 올바른 경향성을 찾아내기 위하여 설정 하였다. 설정된 중앙으로부터 바깥 방향으로 나가는 line 1, 2, 3 를 다음과 같이 설정하였다.
+중앙에서부터 바깥 쪽으로 나가는 경로에서의 PL data를 추출해낸다. 중앙으로 잡은 점의 좌표는 (59.0, 53.6, 33)이다. (이때 좌표를 (x, y, z) 라 했을 때 x, y는 사진상에서의 좌표, z는 그림에서 보이는 밝기의 크기, 즉 PL peak의 대략적인 상대적 크기이다.) 그림 상으로는 정중앙이 아닐 수 있지만 PL peak이 가장 높게 나온 곳이므로 올바른 경향성을 찾아내기 위하여 설정 하였다. 설정된 중앙으로부터 바깥 방향으로 나가는 line 1, 2, 3 를 Table 1 과 같이 설정하였다.
 
 \begin{table}[H]%[width=1.0\linewidth]
 	\caption{Routing lines 1, 2, and 3}
@@ -60,11 +68,11 @@ Nova Px 프로그램을 활용하여 PL mapping 된 파일에서 데이터를 �
 	\end{tabular}
 	\end{table}
 
-중앙으로 잡은 점을 point 0, 각 line에 대해 있는 점들을 point 1-1, 1-2, … , 1-8, 2-1, 2-1, … , 2-11, 3-1, 3-2, … , 3-14로 정의하도록 하자. 또한 line 1 은 point 0 부터 point 1-8, line 2 은 point 0 부터 point 2-11, line 3 은 point 0 부터 point 3-14 까지 이다. 
+중앙으로 잡은 점을 point 0, 각 line에 대해 있는 점들을 point 1-1, 1-2, … , 1-8, 2-1, 2-1, … , 2-11, 3-1, 3-2, … , 3-14로 정의하자. line 1 은 point 0 부터 point 1-8, line 2 은 point 0 부터 point 2-11, line 3 은 point 0 부터 point 3-14 까지 이다. 
 
 \subsection{분석 과정}
 \subsubsection{point data peak fitting}
-각 점들의 추출된 data를 분석하기 위해서는 Origin 9 프로그램을 사용하였다. Chen (2018) 에 의하면 CsPbBr3 에서 biexciton과 exciton peak이 나타나는 wave length 는 각각 약 580nm, 600nm 이다\cite{chen2018room}. 이 사실을 바탕으로 PL data에서 보여진 peak을 두개의 peak의 합으로 fitting 하였다. Peak fitting 을 할 때에 gauss 매커니즘을 사용하였으며, biexciton 과 exciton이 존재하는 wave length에 peak 위치를 설정한 후 fitting을 진행하였다. Figure \ref{fig:point0}은 그 중 하나의 예시이다.
+각 점들의 추출된 data를 분석하기 위해서는 Origin 9 프로그램을 사용하였다. Chen (2018) 에 의하면 CsPbBr3 에서 biexciton과 exciton peak이 나타나는 wave length 는 각각 약 580nm, 600nm 이다\cite{chen2018room}. 이 사실을 바탕으로 PL data에서 보여진 peak을 두개의 peak의 합으로 fitting 하였다. Peak fitting 을 할 때에 Hartley (1961)의 gauss fitting 매커니즘을 프로그램에서 사용하였으며, biexciton 과 exciton이 존재하는 wave length에 peak 위치를 설정한 후 fitting을 진행하였다\cite{hartley1961modified}. Figure \ref{fig:point0}은 그 중 하나의 예시이다.
 \begin{figure}[H]
 	\begin{center}
 		\begin{tabular}{cc}
@@ -85,7 +93,7 @@ Line 1, Line 2, Line 3 에서의 결과는 각각 Figure \ref{fig:line1}, Figure
 			\includegraphics[width=1\textwidth]{_line1}
 		\end{tabular}
 	\end{center}
-	\caption{line 1 data analysis}
+	\caption{picture of line 1 and data analysis}
 	\label{fig:line1}  
 \end{figure}
 Figure \ref{fig:line1}, 즉 line 1에서는 exciton과 biexciton 모두 감소하는 추세를 보이다가 끝에서 증가하는 모습을 볼 수 있다.
@@ -95,7 +103,7 @@ Figure \ref{fig:line1}, 즉 line 1에서는 exciton과 biexciton 모두 감소�
 			\includegraphics[width=1\textwidth]{_line2}
 		\end{tabular}
 	\end{center}
-	\caption{line 2 data analysis}
+	\caption{picture of line 2 and data analysis}
 	\label{fig:line2}  
 \end{figure}
 Figure \ref{fig:line2}, 즉 line 2에서는 exciton과 biexciton 모두 감소하는 추세를 보이다가 가장 끝 두점에서는 biexciton은 급격히 증가, exciton은 급격히 감소함을 볼 수 있다.
@@ -106,7 +114,7 @@ Figure \ref{fig:line2}, 즉 line 2에서는 exciton과 biexciton 모두 감소�
 			\includegraphics[width=1\textwidth]{_line3}
 		\end{tabular}
 	\end{center}
-	\caption{line 3 data analysis}
+	\caption{picture of line 3 and data analysis}
 	\label{fig:line3}  
 \end{figure}
 Figure \ref{fig:line3} , 즉 line 3에서는 exciton은 감소, biexciton은 증가하는 추세를 보이다가 가장 끝 두점에서는 biexciton은 급격히 감소, exciton은 급격히 증가함을 볼 수 있다.
