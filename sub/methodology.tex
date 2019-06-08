@@ -112,7 +112,7 @@ Line 1, Line 2, Line 3 에서의 결과는 각각 Figure \ref{fig:line1}, Figure
 		ybar,%
 		title={Line 1},%
 		xtick = data,%
-		symbolic x coords={0, 1, 2, 3, 4, 5, 6, 7, 8,, 9, 10, 11, 12, 13, 14},%
+		symbolic x coords={0, 1, 2, 3, 4, 5, 6, 7, 8},%
 		ylabel= {Intensity(a.u.)},%
 		ymin=0,ystep=5000,ymax=35000.0,%
 		scaled y ticks = false,%
@@ -121,6 +121,70 @@ Line 1, Line 2, Line 3 에서의 결과는 각각 Figure \ref{fig:line1}, Figure
 		\addplot table [x=no, y=biexciton] {./data/line1.csv}; %
 		\addlegendentry {biexciton}%
 		\addplot table [x=no, y=exciton] {./data/line1.csv}; %
+		\addlegendentry {exciton}%
+		\end{axis}
+		\node at (-0.9, 3.5) {(b)};
+		\end{tikzpicture}
+	\end{tabular}
+	\caption{picture of line 1 and data analysis}
+	\label{fig:line1}  
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{cc}
+		\includegraphics[width=0.3\textwidth]{_line1-1}
+		\begin{tikzpicture} [remember picture,overlay]	
+		\node[text=white] at (-4, 4) {(a)};
+		\end{tikzpicture}
+		&
+		\begin{tikzpicture}
+		\begin{axis} [
+		width=0.70\textwidth,%
+		height = 5cm,%
+		ybar,%
+		title={Line 2},%
+		xtick = data,%
+		symbolic x coords={0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11},%
+		ylabel= {Intensity(a.u.)},%
+		ymin=0,ystep=5000,ymax=35000.0,%
+		scaled y ticks = false,%
+		ymajorgrids = true,
+		legend style={at={(0.02,10)}},legend pos=north east]%
+		\addplot table [x=no, y=biexciton] {./data/line2.csv}; %
+		\addlegendentry {biexciton}%
+		\addplot table [x=no, y=exciton] {./data/line2.csv}; %
+		\addlegendentry {exciton}%
+		\end{axis}
+		\node at (-0.9, 3.5) {(b)};
+		\end{tikzpicture}
+	\end{tabular}
+	\caption{picture of line 1 and data analysis}
+	\label{fig:line1}  
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{cc}
+		\includegraphics[width=0.3\textwidth]{_line1-1}
+		\begin{tikzpicture} [remember picture,overlay]	
+		\node[text=white] at (-4, 4) {(a)};
+		\end{tikzpicture}
+		&
+		\begin{tikzpicture}
+		\begin{axis} [
+		width=0.70\textwidth,%
+		height = 5cm,%
+		ybar,%
+		title={Line 3},%
+		xtick = data,%
+		symbolic x coords={0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14},%
+		ylabel= {Intensity(a.u.)},%
+		ymin=0,ystep=5000,ymax=35000.0,%
+		scaled y ticks = false,%
+		ymajorgrids = true,
+		legend style={at={(0.02,10)}},legend pos=north east]%
+		\addplot table [x=no, y=biexciton] {./data/line3.csv}; %
+		\addlegendentry {biexciton}%
+		\addplot table [x=no, y=exciton] {./data/line3.csv}; %
 		\addlegendentry {exciton}%
 		\end{axis}
 		\node at (-0.9, 3.5) {(b)};

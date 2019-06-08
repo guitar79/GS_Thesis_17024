@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.25)  8 JUN 2019 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.25)  9 JUN 2019 03:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1146,8 +1146,14 @@ LaTeX Warning: Unused global option(s):
     [pdftex].
 
 (./gshs_thesis_17024_main.aux (./sub/abstract.aux) (./sub/introduction.aux)
-(./sub/methodology.aux) (./sub/result.aux) (./sub/conclusion.aux)
-(./sub/footer.aux))
+(./sub/methodology.aux
+
+LaTeX Warning: Label `fig:line1' multiply defined.
+
+
+LaTeX Warning: Label `fig:line1' multiply defined.
+
+) (./sub/result.aux) (./sub/conclusion.aux) (./sub/footer.aux))
 \openout1 = `gshs_thesis_17024_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -1539,41 +1545,68 @@ Overfull \hbox (27.12425pt too wide) in paragraph at lines 102--129
 [][] 
  []
 
-<images/_line1.png, id=164, 916.8654pt x 341.5962pt>
+File: images/_line1-1.png Graphic file (type png)
+<use images/_line1-1.png>
+Package pdftex.def Info: images/_line1-1.png  used on input line 135.
+(pdftex.def)             Requested size: 123.77074pt x 124.8249pt.
+Package pgfplots info on input line 152: Using 'lua backend=false' for axis: x 
+coord trafo unsupported.
+PGFPlots: reading {./data/line2.csv}
+PGFPlots: reading {./data/line2.csv}
+
+Overfull \hbox (27.12022pt too wide) in paragraph at lines 134--161
+[][] 
+ []
+
+[10 <./images/_line1-1.png>]
+File: images/_line1-1.png Graphic file (type png)
+<use images/_line1-1.png>
+Package pdftex.def Info: images/_line1-1.png  used on input line 167.
+(pdftex.def)             Requested size: 123.77074pt x 124.8249pt.
+Package pgfplots info on input line 184: Using 'lua backend=false' for axis: x 
+coord trafo unsupported.
+PGFPlots: reading {./data/line3.csv}
+PGFPlots: reading {./data/line3.csv}
+
+Overfull \hbox (27.12206pt too wide) in paragraph at lines 166--193
+[][] 
+ []
+
+<images/_line1.png, id=171, 916.8654pt x 341.5962pt>
 File: images/_line1.png Graphic file (type png)
 <use images/_line1.png>
-Package pdftex.def Info: images/_line1.png  used on input line 137.
+Package pdftex.def Info: images/_line1.png  used on input line 201.
 (pdftex.def)             Requested size: 412.56496pt x 153.71164pt.
-[10 <./images/_line1-1.png>]
 <images/_line2.png, id=172, 915.9018pt x 341.5962pt>
 File: images/_line2.png Graphic file (type png)
 <use images/_line2.png>
-Package pdftex.def Info: images/_line2.png  used on input line 150.
+Package pdftex.def Info: images/_line2.png  used on input line 214.
 (pdftex.def)             Requested size: 412.56496pt x 153.87323pt.
-<images/_line3.png, id=173, 915.9018pt x 341.1144pt>
+[11 <./images/_line1.png>]
+<images/_line3.png, id=177, 915.9018pt x 341.1144pt>
 File: images/_line3.png Graphic file (type png)
 <use images/_line3.png>
-Package pdftex.def Info: images/_line3.png  used on input line 163.
+Package pdftex.def Info: images/_line3.png  used on input line 227.
 (pdftex.def)             Requested size: 412.56496pt x 153.65619pt.
- [11 <./images/_line1.png> <./images/_line2.png>])
-[12 <./images/_line3.png>]
+ [12 <./images/_line2.png> <./images/_line3.png>])
+[13]
 \openout2 = `sub/result.aux'.
 
  (./sub/result.tex)
 \openout2 = `sub/conclusion.aux'.
 
- (./sub/conclusion.tex) [13
+ (./sub/conclusion.tex) [14
 
 
 
 
-]
-[14] (./gshs_thesis_17024_main.bbl) [15
+] [15]
+(./gshs_thesis_17024_main.bbl) [16
 
 ]
 \openout2 = `sub/footer.aux'.
 
- (./sub/footer.tex [16
+ (./sub/footer.tex [17
 
 ])
 (./gshs_thesis_17024_main.aux (./sub/abstract.aux) (./sub/introduction.aux)
@@ -1582,15 +1615,18 @@ Package pdftex.def Info: images/_line3.png  used on input line 163.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 31544 strings out of 492649
- 748871 string characters out of 6133383
- 934320 words of memory out of 5000000
- 34616 multiletter control sequences out of 15000+600000
+ 31585 strings out of 492649
+ 749623 string characters out of 6133384
+ 949781 words of memory out of 5000000
+ 34653 multiletter control sequences out of 15000+600000
  149981 words of font info for 324 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,26n,138p,998b,2429s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,26n,138p,998b,2415s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2018/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
@@ -1668,10 +1704,10 @@ j28.pfb><c:/texlive/2018/texmf-dist/fonts/type1/uhc/umj/umj36.pfb><c:/texlive/2
 018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2018/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on gshs_thesis_17024_main.pdf (26 pages, 6345887 bytes).
+Output written on gshs_thesis_17024_main.pdf (27 pages, 6349819 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 311 compressed objects within 4 object streams
+ 453 PDF objects out of 1000 (max. 8388607)
+ 313 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
