@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.25)  5 JUN 2019 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.25)  8 JUN 2019 10:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1383,37 +1383,92 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <16> not available
 <images/waveguiding_effect.jpg, id=105, 511.9125pt x 391.4625pt>
 File: images/waveguiding_effect.jpg Graphic file (type jpg)
 <use images/waveguiding_effect.jpg>
-Package pdftex.def Info: images/waveguiding_effect.jpg  used on input line 10.
-(pdftex.def)             Requested size: 288.7942pt x 220.84221pt.
+Package pdftex.def Info: images/waveguiding_effect.jpg  used on input line 12.
+(pdftex.def)             Requested size: 330.05322pt x 252.3928pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 13.
-<images/perovskite.png, id=106, 569.4876pt x 408.5664pt>
-File: images/perovskite.png Graphic file (type png)
-<use images/perovskite.png>
-Package pdftex.def Info: images/perovskite.png  used on input line 26.
-(pdftex.def)             Requested size: 288.7942pt x 207.19408pt.
- [1
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
 
 
 
 
  <./images/waveguiding_effect.JPG>]
+<images/perovskite.png, id=109, 569.4876pt x 408.5664pt>
+File: images/perovskite.png Graphic file (type png)
+<use images/perovskite.png>
+Package pdftex.def Info: images/perovskite.png  used on input line 26.
+(pdftex.def)             Requested size: 247.54149pt x 177.58778pt.
 
-LaTeX Warning: Citation `.' on page 2 undefined on input line 33.
+
+LaTeX Warning: Citation `huang2009fabrication' on page 2 undefined on input lin
+e 34.
+
+
+Overfull \hbox (17.47757pt too wide) in paragraph at lines 34--36
+\LUC/nanummj/m/n/10.95/c6 ^^@\LUC/nanummj/m/n/10.95/b2 ä \T1/ptm/m/n/10.95 [\T1
+/ptm/b/n/10.95 ?\T1/ptm/m/n/10.95 ]. \LUC/nanummj/m/n/10.95/bc ø \LUC/nanummj/m
+/n/10.95/c5 ð\LUC/nanummj/m/n/10.95/ad l\LUC/nanummj/m/n/10.95/c5 Ð\LUC/nanummj
+/m/n/10.95/c1 ^^\\LUC/nanummj/m/n/10.95/b2 ” è\LUC/nanummj/m/n/10.95/ac °\LUC/n
+anummj/m/n/10.95/c8 ^^U\LUC/nanummj/m/n/10.95/c7 D \LUC/nanummj/m/n/10.95/c8 ^^
+\\LUC/nanummj/m/n/10.95/c7 ‘\LUC/nanummj/m/n/10.95/d5 X\LUC/nanummj/m/n/10.95/b
+2 ” \LUC/nanummj/m/n/10.95/c0 È\LUC/nanummj/m/n/10.95/b8 \\LUC/nanummj/m/n/10.9
+5/c6 ´ \LUC/nanummj/m/n/10.95/bc )\LUC/nanummj/m/n/10.95/c2 Ý \LUC/nanummj/m/n/
+10.95/c9 ^^Q \LUC/nanummj/m/n/10.95/d5 X\LUC/nanummj/m/n/10.95/b0 ˜\LUC/nanummj
+/m/n/10.95/c7 x \T1/ptm/m/n/10.95 PDMS(Polydimethylsiloxane)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
 
 [2 <./images/perovskite.png>]
-<images/PL.png, id=119, 221.628pt x 257.763pt>
+<images/PL.png, id=120, 221.628pt x 257.763pt>
 File: images/PL.png Graphic file (type png)
 <use images/PL.png>
 Package pdftex.def Info: images/PL.png  used on input line 41.
-(pdftex.def)             Requested size: 185.65297pt x 215.9216pt.
- [3 <./images/PL.png>]
+(pdftex.def)             Requested size: 144.40024pt x 167.94514pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+[3 <./images/PL.png>]
 <images/exciton_biexciton.png, id=126, 637.4214pt x 281.3712pt>
 File: images/exciton_biexciton.png Graphic file (type png)
 <use images/exciton_biexciton.png>
-Package pdftex.def Info: images/exciton_biexciton.png  used on input line 56.
-(pdftex.def)             Requested size: 330.05322pt x 145.69133pt.
- [4 <./images/exciton_biexciton.png>]) [5]
+Package pdftex.def Info: images/exciton_biexciton.png  used on input line 55.
+(pdftex.def)             Requested size: 247.54149pt x 109.27063pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+
+ []
+
+[4 <./images/exciton_biexciton.png>]) [5]
 \openout2 = `sub/methodology.aux'.
 
  (./sub/methodology.tex
@@ -1451,86 +1506,80 @@ Package pdftex.def Info: images/hotplate.jpg  used on input line 19.
 <images/OM.png, id=145, 417.852pt x 331.90666pt>
 File: images/OM.png Graphic file (type png)
 <use images/OM.png>
-Package pdftex.def Info: images/OM.png  used on input line 31.
+Package pdftex.def Info: images/OM.png  used on input line 36.
 (pdftex.def)             Requested size: 185.65297pt x 147.46756pt.
 <images/Nova_screen_capture.png, id=146, 689.07437pt x 447.6725pt>
 File: images/Nova_screen_capture.png Graphic file (type png)
 <use images/Nova_screen_capture.png>
-Package pdftex.def Info: images/Nova_screen_capture.png  used on input line 45.
+Package pdftex.def Info: images/Nova_screen_capture.png  used on input line 49.
 
 (pdftex.def)             Requested size: 268.1647pt x 174.21587pt.
 <images/line123.png, id=147, 480.3546pt x 483.7272pt>
 File: images/line123.png Graphic file (type png)
 <use images/line123.png>
-Package pdftex.def Info: images/line123.png  used on input line 46.
+Package pdftex.def Info: images/line123.png  used on input line 50.
 (pdftex.def)             Requested size: 165.02345pt x 166.18486pt.
 
-Overfull \hbox (44.6232pt too wide) in paragraph at lines 44--48
+Overfull \hbox (44.6232pt too wide) in paragraph at lines 48--52
  [] 
  []
 
-[7 <./images/OM.png>] [8 <./images/Nova_screen_capture.png> <./images/line123.p
-ng>]
+[7 <./images/OM.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
+
+ []
+
+[8 <./images/Nova_screen_capture.png> <./images/line123.png>]
 <images/point0.png, id=157, 777.6252pt x 543.4704pt>
 File: images/point0.png Graphic file (type png)
 <use images/point0.png>
-Package pdftex.def Info: images/point0.png  used on input line 79.
+Package pdftex.def Info: images/point0.png  used on input line 85.
 (pdftex.def)             Requested size: 330.05322pt x 230.67746pt.
  [9 <./images/point0.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
+
+ []
+
 <images/_line1.png, id=163, 916.8654pt x 341.5962pt>
 File: images/_line1.png Graphic file (type png)
 <use images/_line1.png>
-Package pdftex.def Info: images/_line1.png  used on input line 93.
+Package pdftex.def Info: images/_line1.png  used on input line 103.
 (pdftex.def)             Requested size: 412.56496pt x 153.71164pt.
-
-Overfull \hbox (12.0pt too wide) in paragraph at lines 92--95
- [] 
- []
-
 <images/_line2.png, id=164, 915.9018pt x 341.5962pt>
 File: images/_line2.png Graphic file (type png)
 <use images/_line2.png>
-Package pdftex.def Info: images/_line2.png  used on input line 103.
+Package pdftex.def Info: images/_line2.png  used on input line 116.
 (pdftex.def)             Requested size: 412.56496pt x 153.87323pt.
-
-Overfull \hbox (12.0pt too wide) in paragraph at lines 102--105
- [] 
- []
-
 [10 <./images/_line1.png>]
 <images/_line3.png, id=169, 915.9018pt x 341.1144pt>
 File: images/_line3.png Graphic file (type png)
 <use images/_line3.png>
-Package pdftex.def Info: images/_line3.png  used on input line 114.
+Package pdftex.def Info: images/_line3.png  used on input line 129.
 (pdftex.def)             Requested size: 412.56496pt x 153.65619pt.
-
-Overfull \hbox (12.0pt too wide) in paragraph at lines 113--116
- [] 
- []
-
-) [11 <./images/_line2.png> <./images/_line3.png>] [12]
+ [11 <./images/_line2.png> <./images/_line3.png>])
+[12]
 \openout2 = `sub/result.aux'.
 
  (./sub/result.tex)
 \openout2 = `sub/conclusion.aux'.
 
-
-(./sub/conclusion.tex) [13
-
+ (./sub/conclusion.tex) [13
 
 
 
-] [14] (./gshs_thesis_17024_main.bbl) [15
+
+] [14]
+(./gshs_thesis_17024_main.bbl) [15
 
 ]
 \openout2 = `sub/footer.aux'.
 
+ (./sub/footer.tex [16
 
-(./sub/footer.tex [16
-
-]) (./gshs_thesis_17024_main.aux (./sub/abstract.aux)
-(./sub/introduction.aux) (./sub/methodology.aux) (./sub/result.aux)
-(./sub/conclusion.aux) (./sub/footer.aux))
+])
+(./gshs_thesis_17024_main.aux (./sub/abstract.aux) (./sub/introduction.aux)
+(./sub/methodology.aux) (./sub/result.aux) (./sub/conclusion.aux)
+(./sub/footer.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1539,13 +1588,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 30971 strings out of 492649
- 732805 string characters out of 6133384
- 918335 words of memory out of 5000000
- 34054 multiletter control sequences out of 15000+600000
+ 31007 strings out of 492649
+ 733765 string characters out of 6133383
+ 918529 words of memory out of 5000000
+ 34090 multiletter control sequences out of 15000+600000
  147677 words of font info for 321 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,18n,138p,998b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,18n,138p,998b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
@@ -1619,7 +1668,7 @@ mjmd7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/uhc/umj/umj23.pfb><c:/texlive
 s/type1/uhc/umj/umj36.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utm
 b8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texliv
 e/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gshs_thesis_17024_main.pdf (26 pages, 6123743 bytes).
+Output written on gshs_thesis_17024_main.pdf (26 pages, 6123651 bytes).
 PDF statistics:
  435 PDF objects out of 1000 (max. 8388607)
  301 compressed objects within 4 object streams

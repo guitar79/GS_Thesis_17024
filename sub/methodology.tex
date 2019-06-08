@@ -19,6 +19,11 @@
 			\includegraphics[width=0.3\textwidth]{hotplate}
 		\end{tabular}
 	\end{center}
+	\begin{tikzpicture} [remember picture,overlay]
+	\node[text=white] at (0.6, 4.7) {(a)};
+	\node at (5.2, 4.7) {(b)};
+	\node[text=white] at (10.1, 4.7) {(c)};
+	\end{tikzpicture}	
 	\caption{In order, sonicating, spin coating, PDMS stamping on hot plate.}
 	\label{fig:sample}  
 \end{figure}
@@ -35,7 +40,6 @@ Silicon wafer 위에 spin coating을 이용하여 용액을 균일하게 펼쳐�
 	\label{fig:om}  
 \end{figure}
 PDMS stamping 과정을 거친 이후에 silicon wafer에 결정이 잘 형성되었는지 확인하기 위해 OM(광학현미경)으로 1차적인 확인을 해주었다. 그 결과 Figure \ref{fig:om} 에서 잘 형성된 결정 여럿을 관찰할 수 있었고, 그 중 가장 잘 형성된 하나의 결정을 통해 연구를 진행하였다.
-
 
 \subsection{데이터 추출}
 제작된 sample을 NT-MDT 기기를 통하여 PL mapping 하였다. 생성된 단결정에 측정할 위치를 정해 놓고 PL을 측정하였다.  PL mapping이란, sample의 각 위치에서의 PL 데이터를 모두 담은 파일을 만드는 과정이다. 이 데이터는 레이저의 조리개를 $OD = 2$ 로 맞춰놓은 ND2 상태에서 측정하였다. 이렇게 만들어진 파일에서는 임의의 점에서의 PL data 를 얻어낼 수 있다는 장점이 있다.
@@ -69,10 +73,12 @@ Nova Px 프로그램을 활용하여 PL mapping 된 파일에서 데이터를 �
 	\end{table}
 
 중앙으로 잡은 점을 point 0, 각 line에 대해 있는 점들을 point 1-1, 1-2, … , 1-8, 2-1, 2-1, … , 2-11, 3-1, 3-2, … , 3-14로 정의하자. line 1 은 point 0 부터 point 1-8, line 2 은 point 0 부터 point 2-11, line 3 은 point 0 부터 point 3-14 까지 이다. 
+\\
 
 \subsection{분석 과정}
 \subsubsection{point data peak fitting}
 각 점들의 추출된 data를 분석하기 위해서는 Origin 9 프로그램을 사용하였다. Chen (2018) 에 의하면 CsPbBr3 에서 biexciton과 exciton peak이 나타나는 wave length 는 각각 약 580nm, 600nm 이다\cite{chen2018room}. 이 사실을 바탕으로 PL data에서 보여진 peak을 두개의 peak의 합으로 fitting 하였다. Peak fitting 을 할 때에 Hartley (1961)의 gauss fitting 매커니즘을 프로그램에서 사용하였으며, biexciton 과 exciton이 존재하는 wave length에 peak 위치를 설정한 후 fitting을 진행하였다\cite{hartley1961modified}. Figure \ref{fig:point0}은 그 중 하나의 예시이다.
+
 \begin{figure}[H]
 	\begin{center}
 		\begin{tabular}{cc}
@@ -82,27 +88,37 @@ Nova Px 프로그램을 활용하여 PL mapping 된 파일에서 데이터를 �
 	\caption{The PL data of the set point 0 is shown by sum of exciton and biexciton peak.}
 	\label{fig:point0}  
 \end{figure}
+
 다음과 같이 multiple peak fitting 을 마친 후에는 각 peak의 x값, 즉 wavelength 값과 y값, 즉 intensity 값을 데이터로 기록한 후 분석하였다.
+
 \subsubsection{line data analyze}
 위의 과정에서 각 point 들의 data 에 대한 peak fitting 을 한 이후에 그 경향성을 보기 위해 필요한 과정이다. 분석하고자 하는 것은 중앙에서 바깥으로 가면서 peak intensity의 경향성이다. 이를 위해서 peak fitting 과정에서 얻은 데이터인 각 point 에서의 biexciton, exciton peak 의 intensity 값을 y축, point 번호를 x 축으로 설정하여  line 1, line 2, line 3 별로 막대그래프를 그려서 경향성을 볼 수 있었다.
+\\
+
 \subsection{분석 결과 및 해석}
 Line 1, Line 2, Line 3 에서의 결과는 각각 Figure \ref{fig:line1}, Figure \ref{fig:line2}, Figure \ref{fig:line3} 와 같이 나타난다.
+
 \begin{figure}[H]
 	\begin{center}
-		\begin{tabular}{cc}
-			\includegraphics[width=1\textwidth]{_line1}
-		\end{tabular}
+	\includegraphics[width=1\textwidth]{_line1}
 	\end{center}
+	\begin{tikzpicture} [remember picture,overlay]
+	\node[text=white] at (0.3, 6.0) {(a)};
+	\node at (6.2, 6.0) {(b)};
+	\end{tikzpicture}		
 	\caption{picture of line 1 and data analysis}
 	\label{fig:line1}  
 \end{figure}
+
 Figure \ref{fig:line1}, 즉 line 1에서는 exciton과 biexciton 모두 감소하는 추세를 보이다가 끝에서 증가하는 모습을 볼 수 있다.
 \begin{figure}[H]
 	\begin{center}
-		\begin{tabular}{cc}
-			\includegraphics[width=1\textwidth]{_line2}
-		\end{tabular}
+		\includegraphics[width=1\textwidth]{_line2}
 	\end{center}
+	\begin{tikzpicture} [remember picture,overlay]
+	\node[text=white] at (0.3, 6.0) {(a)};
+	\node at (6.2, 6.0) {(b)};
+	\end{tikzpicture}		
 	\caption{picture of line 2 and data analysis}
 	\label{fig:line2}  
 \end{figure}
@@ -110,13 +126,79 @@ Figure \ref{fig:line2}, 즉 line 2에서는 exciton과 biexciton 모두 감소�
 
 \begin{figure}[H]
 	\begin{center}
-		\begin{tabular}{cc}
-			\includegraphics[width=1\textwidth]{_line3}
-		\end{tabular}
+		\includegraphics[width=1\textwidth]{_line3}
 	\end{center}
+	\begin{tikzpicture} [remember picture,overlay]
+	\node[text=white] at (0.3, 6.0) {(a)};
+	\node at (6.2, 6.0) {(b)};
+	\end{tikzpicture}		
 	\caption{picture of line 3 and data analysis}
 	\label{fig:line3}  
 \end{figure}
+%
+%\begin{figure}[h]
+%	\begin{pgfonlayer}{foreground}
+%		\begin{tikzpicture} [remember picture,overlay]
+%		\node at (0.35,3.0) {(a)};
+%		\node at (0.35,-1.0) {(b)};
+%		\end{tikzpicture}
+%	\end{pgfonlayer}
+%	
+%	\begin{tikzpicture}
+%	\begin{axis} [
+%	width=1.00\textwidth,%
+%	height = 8cm,%
+%	xtick = data,%
+%	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
+%	ylabel= {Chlorophyll-a concentration ( $\rm mg~m^{-3}$)},%
+%	ymin=0,ystep=0.5,ymax=2.0,%
+%	scaled y ticks = false,%
+%	ymajorgrids = true,
+%	legend style={at={(0.02,10)}},legend pos=north west]%
+%	\addplot table [x=Month, y=meanLAC_2003] {./data/mon_over00_year.csv}; \addlegendentry {2003 LAC}%
+%	\addplot table [x=Month, y=meanGAC_2003] {./data/mon_over00_year.csv}; \addlegendentry {2003 GAC}%
+%	\end{axis}
+%	
+%	\begin{axis} [
+%	width=1.00\textwidth,height = 8cm,%
+%	axis y line*=right,%
+%	xtick=data,%
+%	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},%
+%	ylabel={Difference ($\rm mg~m^{-3}$)},%
+%	ystep=0.1,ymax=0.4,ymin=-0.4,%
+%	scaled y ticks=false,%
+%	legend style={at={(0.02,0.02)}},legend pos=north east]
+%	\addplot [smooth,mark=x,black] table [x=Month, y=meanDIFF_2003] {./data/mon_over00_year.csv}; 
+%	\addlegendentry {Difference}
+%	\end{axis}
+%	\end{tikzpicture}
+	
+%	\begin{tikzpicture}	
+%	\begin{axis} [
+%	width=1.00\textwidth,   height = 8cm, 
+%	major x tick style = transparent,
+%	xtick = data,
+%	symbolic x coords={Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec},
+%	ybar=4*\pgflinewidth,
+%	bar width=8pt,
+%	ymajorgrids = true,
+%	ylabel= {Number of pixels ( > 10 $\rm mg~m^{-3})$},
+%	scaled y ticks = false,
+%	ymin=0, ystep=1, %ymax=100,
+%	ymode=log]
+	%nodes near coords,
+%	\addplot[style={blue,fill=blue,mark=none}] table [x=Month, y=statipixLAC_2003] {./data/mon_over10_year.csv}; \addlegendentry{2003 LAC}
+%	\addplot[style={red,fill=red,mark=none}] table [x=Month, y=statipixGAC_2003] {./data/mon_over10_year.csv}; \addlegendentry{2003 GAC}
+%	\end{axis}
+%	\end{tikzpicture}
+	%	\end{pgfonlayer}
+%	\scriptsize\caption{Variation of monthly mean values of (a) chlorophyll-a concentration in 2003 using the LAC data (blue line) and the GAC data (red line) and its differences between the LAC and the GAC data and (b) the number of pixels with a value over 10 $\rm mg~m^{-3}$.}
+%	\label{fig:diff_2003}
+%\end{figure}
+
 Figure \ref{fig:line3} , 즉 line 3에서는 exciton은 감소, biexciton은 증가하는 추세를 보이다가 가장 끝 두점에서는 biexciton은 급격히 감소, exciton은 급격히 증가함을 볼 수 있다.
 
 세 line에서 exciton, biexciton 각각의 공통되는 경향성이나 규칙은 찾아보기 어렵다. 하지만 중앙에서 중간까지 갈 때는 특정한 경향성을 보이는 듯 하다가 가장 바깥, 가장자리에서 그 경향성이 반대가 되는 모습을 볼 수 있다. 종합적으로 보았을 때에는 가장자리로 가면서 감소하는 모습을 보이다가 다시 증가하는 모습이 세 line모두에서 나타나게 된다.
+
+
+	

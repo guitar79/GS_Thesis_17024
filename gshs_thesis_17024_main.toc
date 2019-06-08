@@ -10,7 +10,7 @@
 \contentsline {subsubsection}{\numberline {I.2.3}Exciton, biexciton의 의미}{4}
 \contentsline {subsection}{\numberline {I.3}ND filer}{4}
 \contentsline {subsection}{\numberline {I.4}선행연구 및 한계}{5}
-\contentsline {subsection}{\numberline {I.5}연구 목적 및 문제}{5}
+\contentsline {subsection}{\numberline {I.5}연구 목적 및 연구 문제}{5}
 \contentsline {section}{\numberline {II}연구 과정 및 결과}{6}
 \contentsline {subsection}{\numberline {II.1}샘플 제작}{6}
 \contentsline {subsection}{\numberline {II.2}데이터 추출}{7}
