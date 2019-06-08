@@ -14,13 +14,20 @@ Green, M.~A., Ho-Baillie, A., \& Snaith, H.~J. (2014).
 \newblock The emergence of perovskite solar cells.
 \newblock {\em Nature photonics}, {\em 8\/}(7), 506.
 
-\bibitem[3]{chen2018room}
+\bibitem[3]{huang2009fabrication}
+Huang, J.-H., Ho, Z.-Y., Kuo, T.-H., Kekuda, D., Chu, C.-W., \& Ho, K.-C.
+  (2009).
+\newblock Fabrication of multilayer organic solar cells through a stamping
+  technique.
+\newblock {\em Journal of Materials Chemistry}, {\em 19\/}(24), 4077--4080.
+
+\bibitem[4]{chen2018room}
 Chen, J., Zhang, Q., Du, W., Mi, Y., Shang, Q., Shi, J., .~.~. et~al. (2018).
 \newblock Room temperature continuous-wave excited biexciton emission in
   cspbbr3 nanocrystals.
 \newblock {\em arXiv preprint arXiv:1804.09782}.
 
-\bibitem[4]{hartley1961modified}
+\bibitem[5]{hartley1961modified}
 Hartley, H.~O. (1961).
 \newblock The modified gauss-newton method for the fitting of non-linear
   regression functions by least squares.
