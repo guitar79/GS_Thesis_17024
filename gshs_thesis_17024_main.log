@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.25)  5 JUL 2019 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.25)  5 JUL 2019 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1591,7 +1591,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  31570 strings out of 492649
  749356 string characters out of 6133384
- 949991 words of memory out of 5000000
+ 950025 words of memory out of 5000000
  34644 multiletter control sequences out of 15000+600000
  149399 words of font info for 322 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1671,7 +1671,7 @@ texmf-dist/fonts/type1/uhc/umj/umj23.pfb><c:/texlive/2018/texmf-dist/fonts/type
 c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2018/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on gshs_thesis_17024_main.pdf (27 pages, 6142273 bytes).
+Output written on gshs_thesis_17024_main.pdf (27 pages, 6142182 bytes).
 PDF statistics:
  443 PDF objects out of 1000 (max. 8388607)
  307 compressed objects within 4 object streams
