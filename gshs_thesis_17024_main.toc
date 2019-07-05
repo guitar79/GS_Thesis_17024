@@ -1,7 +1,7 @@
 \contentsline {section}{Abstract}{i}
-\contentsline {section}{Contents}{iii}
-\contentsline {section}{List of Figures}{v}
-\contentsline {section}{List of Tables}{vi}
+\contentsline {section}{Contents}{iv}
+\contentsline {section}{List of Figures}{vi}
+\contentsline {section}{List of Tables}{vii}
 \contentsline {section}{\numberline {I}서론}{1}
 \contentsline {subsection}{\numberline {I.1}연구 동기}{1}
 \contentsline {subsection}{\numberline {I.2}이론적 배경}{2}
@@ -10,8 +10,7 @@
 \contentsline {subsubsection}{\numberline {I.2.3}Exciton, biexciton의 의미}{4}
 \contentsline {subsubsection}{\numberline {I.2.4}Waveguiding effect}{4}
 \contentsline {subsubsection}{\numberline {I.2.5}ND filter}{5}
-\contentsline {subsection}{\numberline {I.3}선행연구 및 한계}{5}
-\contentsline {subsection}{\numberline {I.4}연구 목적 및 연구 문제}{5}
+\contentsline {subsection}{\numberline {I.3}연구 목적 및 연구 문제}{5}
 \contentsline {section}{\numberline {II}연구 과정 및 결과}{7}
 \contentsline {subsection}{\numberline {II.1}샘플 제작}{7}
 \contentsline {subsection}{\numberline {II.2}데이터 추출}{8}

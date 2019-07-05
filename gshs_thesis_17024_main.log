@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.25)  4 JUL 2019 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.25)  5 JUL 2019 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1347,28 +1347,28 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
  [3]
-[4] [1] [2] (./gshs_thesis_17024_main.toc
+[4] [1] [2] [3] (./gshs_thesis_17024_main.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
- [3
-
-])
+)
 \tf@toc=\write4
 \openout4 = `gshs_thesis_17024_main.toc'.
 
- [4]
+ [4
+
+] [5]
 (./gshs_thesis_17024_main.lof)
 \tf@lof=\write5
 \openout5 = `gshs_thesis_17024_main.lof'.
 
- [5
+ [6
 
 
 ] (./gshs_thesis_17024_main.lot)
 \tf@lot=\write6
 \openout6 = `gshs_thesis_17024_main.lot'.
 
- [6
+ [7
 
 
 ])
@@ -1380,7 +1380,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <21> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <16> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 6.
-<images/waveguiding_effect.jpg, id=104, 511.9125pt x 391.4625pt>
+<images/waveguiding_effect.jpg, id=107, 511.9125pt x 391.4625pt>
 File: images/waveguiding_effect.jpg Graphic file (type jpg)
 <use images/waveguiding_effect.jpg>
 Package pdftex.def Info: images/waveguiding_effect.jpg  used on input line 12.
@@ -1393,32 +1393,18 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 
 
  <./images/waveguiding_effect.JPG>]
-<images/perovskite.png, id=108, 569.4876pt x 408.5664pt>
+<images/perovskite.png, id=111, 569.4876pt x 408.5664pt>
 File: images/perovskite.png Graphic file (type png)
 <use images/perovskite.png>
 Package pdftex.def Info: images/perovskite.png  used on input line 26.
 (pdftex.def)             Requested size: 247.54149pt x 177.58778pt.
-
-Overfull \hbox (17.47757pt too wide) in paragraph at lines 34--36
-\LUC/nanummj/m/n/10.95/c6 ^^@\LUC/nanummj/m/n/10.95/b2 ä \T1/ptm/m/n/10.95 [3].
- \LUC/nanummj/m/n/10.95/bc ø \LUC/nanummj/m/n/10.95/c5 ð\LUC/nanummj/m/n/10.95/
-ad l\LUC/nanummj/m/n/10.95/c5 Ð\LUC/nanummj/m/n/10.95/c1 ^^\\LUC/nanummj/m/n/10
-.95/b2 ” è\LUC/nanummj/m/n/10.95/ac °\LUC/nanummj/m/n/10.95/c8 ^^U\LUC/nanummj/
-m/n/10.95/c7 D \LUC/nanummj/m/n/10.95/c8 ^^\\LUC/nanummj/m/n/10.95/c7 ‘\LUC/nan
-ummj/m/n/10.95/d5 X\LUC/nanummj/m/n/10.95/b2 ” \LUC/nanummj/m/n/10.95/c0 È\LUC/
-nanummj/m/n/10.95/b8 \\LUC/nanummj/m/n/10.95/c6 ´ \LUC/nanummj/m/n/10.95/bc )\L
-UC/nanummj/m/n/10.95/c2 Ý \LUC/nanummj/m/n/10.95/c9 ^^Q \LUC/nanummj/m/n/10.95/
-d5 X\LUC/nanummj/m/n/10.95/b0 ˜\LUC/nanummj/m/n/10.95/c7 x \T1/ptm/m/n/10.95 PD
-MS(Polydimethylsiloxane)
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
 [2 <./images/perovskite.png>]
-<images/PL.png, id=119, 394.1124pt x 257.2812pt>
+<images/PL.png, id=123, 394.1124pt x 257.2812pt>
 File: images/PL.png Graphic file (type png)
 <use images/PL.png>
 Package pdftex.def Info: images/PL.png  used on input line 41.
@@ -1429,7 +1415,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--51
  []
 
 [3 <./images/PL.png>]
-<images/exciton_biexciton.png, id=125, 637.4214pt x 355.5684pt>
+<images/exciton_biexciton.png, id=128, 637.4214pt x 355.5684pt>
 File: images/exciton_biexciton.png Graphic file (type png)
 <use images/exciton_biexciton.png>
 Package pdftex.def Info: images/exciton_biexciton.png  used on input line 55.
@@ -1441,11 +1427,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
 [4 <./images/exciton_biexciton.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 71--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
@@ -1465,22 +1446,22 @@ C/nanummj/m/n/10.95/c1 ^^^\LUC/nanummj/m/n/10.95/ac à \LUC/nanummj/m/n/10.95/c6
 (Dimethyl
  []
 
-<images/sonicator.jpg, id=140, 1445.4pt x 1445.4pt>
+<images/sonicator.jpg, id=143, 1445.4pt x 1445.4pt>
 File: images/sonicator.jpg Graphic file (type jpg)
 <use images/sonicator.jpg>
 Package pdftex.def Info: images/sonicator.jpg  used on input line 13.
 (pdftex.def)             Requested size: 123.77074pt x 123.7506pt.
-<images/spin_coating.jpg, id=141, 1445.4pt x 1445.4pt>
+<images/spin_coating.jpg, id=144, 1445.4pt x 1445.4pt>
 File: images/spin_coating.jpg Graphic file (type jpg)
 <use images/spin_coating.jpg>
 Package pdftex.def Info: images/spin_coating.jpg  used on input line 14.
 (pdftex.def)             Requested size: 123.77074pt x 123.7506pt.
-<images/hotplate.jpg, id=142, 1445.4pt x 1445.4pt>
+<images/hotplate.jpg, id=145, 1445.4pt x 1445.4pt>
 File: images/hotplate.jpg Graphic file (type jpg)
 <use images/hotplate.jpg>
 Package pdftex.def Info: images/hotplate.jpg  used on input line 15.
 (pdftex.def)             Requested size: 123.77074pt x 123.7506pt.
-<images/OM.png, id=143, 417.852pt x 331.90666pt>
+<images/OM.png, id=146, 417.852pt x 331.90666pt>
 File: images/OM.png Graphic file (type png)
 <use images/OM.png>
 Package pdftex.def Info: images/OM.png  used on input line 30.
@@ -1489,13 +1470,13 @@ Package pdftex.def Info: images/OM.png  used on input line 30.
 
 
  <./images/sonicator.jpg> <./images/spin_coating.jpg> <./images/hotplate.jpg>]
-<images/Nova_screen_capture.png, id=148, 689.07437pt x 447.6725pt>
+<images/Nova_screen_capture.png, id=151, 689.07437pt x 447.6725pt>
 File: images/Nova_screen_capture.png Graphic file (type png)
 <use images/Nova_screen_capture.png>
 Package pdftex.def Info: images/Nova_screen_capture.png  used on input line 45.
 
 (pdftex.def)             Requested size: 268.1647pt x 174.21587pt.
-<images/line123.png, id=149, 480.3546pt x 483.7272pt>
+<images/line123.png, id=152, 480.3546pt x 483.7272pt>
 File: images/line123.png Graphic file (type png)
 <use images/line123.png>
 Package pdftex.def Info: images/line123.png  used on input line 46.
@@ -1512,9 +1493,9 @@ b4 ^^\ \T1/ptm/m/n/10.95 sam-ple\LUC/nanummj/m/n/10.95/c7 D \T1/ptm/m/n/10.95 N
 T-MDT Spec-trum In-stru-ments \LUC/nanummj/m/n/10.95/c0 ¬\LUC/nanummj/m/n/10.95
 /c7 X \T1/ptm/m/n/10.95 Nte-gra \LUC/nanummj/m/n/10.95/ae 00\LUC/nanummj/m/n/10
 .95/b9 | \LUC/nanummj/m/n/10.95/d1 µ\LUC/nanummj/m/n/10.95/d5 X\LUC/nanummj/m/n
-/10.95/c5 ì $\OT1/ztmcm/m/n/10.95 75(\OML/ztmcm/m/it/10.95 um\OT1/ztmcm/m/n/10.
-95 ) \OMS/ztmcm/m/n/10.95 ^^B \OT1/ztmcm/m/n/10.95 75(\OML/ztmcm/m/it/10.95 um\
-OT1/ztmcm/m/n/10.95 )$
+/10.95/c5 ì $\OT1/ztmcm/m/n/10.95 75(\TS1/ptm/m/n/10.95 µ\OML/ztmcm/m/it/10.95 
+m\OT1/ztmcm/m/n/10.95 ) \OMS/ztmcm/m/n/10.95 ^^B \OT1/ztmcm/m/n/10.95 75(\TS1/p
+tm/m/n/10.95 µ\OML/ztmcm/m/it/10.95 m\OT1/ztmcm/m/n/10.95 )$
  []
 
 [8 <./images/OM.png>]
@@ -1523,7 +1504,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--76
  []
 
 [9 <./images/Nova_screen_capture.png> <./images/line123.png>]
-<images/point0.png, id=159, 777.6252pt x 543.4704pt>
+<images/point0.png, id=162, 777.6252pt x 543.4704pt>
 File: images/point0.png Graphic file (type png)
 <use images/point0.png>
 Package pdftex.def Info: images/point0.png  used on input line 84.
@@ -1533,7 +1514,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
 
-<images/line1.png, id=164, 480.3546pt x 483.7272pt>
+<images/line1.png, id=167, 480.3546pt x 483.7272pt>
 File: images/line1.png Graphic file (type png)
 <use images/line1.png>
 Package pdftex.def Info: images/line1.png  used on input line 102.
@@ -1551,7 +1532,7 @@ Overfull \hbox (27.12425pt too wide) in paragraph at lines 101--130
 [][] 
  []
 
-<images/line2.png, id=165, 480.8364pt x 483.7272pt>
+<images/line2.png, id=168, 480.8364pt x 483.7272pt>
 File: images/line2.png Graphic file (type png)
 <use images/line2.png>
 Package pdftex.def Info: images/line2.png  used on input line 141.
@@ -1566,7 +1547,7 @@ Overfull \hbox (27.12022pt too wide) in paragraph at lines 140--169
  []
 
 [11 <./images/line1.png>]
-<images/line3.png, id=173, 480.3546pt x 483.7272pt>
+<images/line3.png, id=176, 480.3546pt x 483.7272pt>
 File: images/line3.png Graphic file (type png)
 <use images/line3.png>
 Package pdftex.def Info: images/line3.png  used on input line 178.
@@ -1610,11 +1591,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  31570 strings out of 492649
  749356 string characters out of 6133384
- 950009 words of memory out of 5000000
+ 949991 words of memory out of 5000000
  34644 multiletter control sequences out of 15000+600000
  149399 words of font info for 322 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,26n,138p,1261b,2419s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,26n,138p,1262b,2419s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2018/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
@@ -1690,10 +1671,10 @@ texmf-dist/fonts/type1/uhc/umj/umj23.pfb><c:/texlive/2018/texmf-dist/fonts/type
 c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2018/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on gshs_thesis_17024_main.pdf (26 pages, 6143074 bytes).
+Output written on gshs_thesis_17024_main.pdf (27 pages, 6142268 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 305 compressed objects within 4 object streams
+ 443 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
